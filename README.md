@@ -56,7 +56,24 @@ The **AI-Powered Intelligent Tutoring System** is a cutting-edge educational pla
 ## Project Architecture  
 
 ```
-├── backend/ │ ├── app/ │ │ ├── models/ # AI and ML models │ │ ├── routes/ # API routes for user and admin endpoints │ │ └── utils/ # Utility functions and scripts │ ├── config.py # Application configuration │ └── requirements.txt # Backend dependencies ├── frontend/ │ ├── src/ │ │ ├── components/ # React components for UI │ │ ├── pages/ # User-facing pages │ │ └── utils/ # Helper functions │ ├── package.json # Frontend dependencies │ └── public/ # Static assets (images, icons, etc.) ├── data/ │ ├── datasets/ # Example datasets for testing │ └── trained_models/ # Pre-trained or fine-tuned AI models └── README.md
+├── backend/
+│   ├── app/
+│   │   ├── models/         # AI and ML models
+│   │   ├── routes/         # API routes for user and admin endpoints
+│   │   └── utils/          # Utility functions and scripts
+│   ├── config.py           # Application configuration
+│   └── requirements.txt    # Backend dependencies
+├── frontend/
+│   ├── src/
+│   │   ├── components/     # React components for UI
+│   │   ├── pages/          # User-facing pages
+│   │   └── utils/          # Helper functions
+│   ├── package.json        # Frontend dependencies
+│   └── public/             # Static assets (images, icons, etc.)
+├── data/
+│   ├── datasets/           # Example datasets for testing
+│   └── trained_models/     # Pre-trained or fine-tuned AI models
+└── README.md
 ```
 
 ---
