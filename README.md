@@ -58,5 +58,64 @@ The **AI-Powered Intelligent Tutoring System** is a cutting-edge educational pla
 git clone https://github.com/yourusername/ai-tutoring-system.git
 cd ai-tutoring-system
 
+### **Project Architecture**  
+
+├── backend/ │ ├── app/ │ │ ├── models/ # AI and ML models │ │ ├── routes/ # API routes for user and admin endpoints │ │ └── utils/ # Utility functions and scripts │ ├── config.py # Application configuration │ └── requirements.txt # Backend dependencies ├── frontend/ │ ├── src/ │ │ ├── components/ # React components for UI │ │ ├── pages/ # User-facing pages │ │ └── utils/ # Helper functions │ ├── package.json # Frontend dependencies │ └── public/ # Static assets (images, icons, etc.) ├── data/ │ ├── datasets/ # Example datasets for testing │ └── trained_models/ # Pre-trained or fine-tuned AI models └── README.md
+
+yaml
+Copy code
+
+---
+
+## Setup and Installation
+
+### Prerequisites
+- **Node.js** (v16+)
+- **Python** (v3.8+)
+- **PostgreSQL** (or another RDBMS)
+- **Git** and **GitHub CLI** (optional)
+
+### Step 1: Clone the Repository  
+```bash
+git clone https://github.com/yourusername/ai-tutoring-system.git
+cd ai-tutoring-system
+Step 2: Set Up the Frontend
+Navigate to the frontend directory:
+bash
+Copy code
+cd frontend
+Install dependencies:
+bash
+Copy code
+npm install
+Start the frontend server:
+bash
+Copy code
+npm start
+Step 3: Set Up the Backend
+Navigate to the backend directory:
+bash
+Copy code
+cd backend
+Create a virtual environment:
+bash
+Copy code
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Start the backend server:
+bash
+Copy code
+python manage.py runserver
+Step 4: Configure the Database
+Install PostgreSQL and create a database named ai_tutoring.
+Update config.py in the backend to include your database credentials.
+Step 5: Run the Application
+Access the app in
+
 
 
