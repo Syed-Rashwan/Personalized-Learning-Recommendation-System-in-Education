@@ -176,14 +176,14 @@ Multilingual Support: Use translation APIs for non-English learners.
 Video Analysis: Use AI to summarize videos and extract key points.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Fork the repository.
 
 #### Create a new branch for your feature:
 ```
 git checkout -b feature-name
-Submit a pull request.
+Submit a pull request. 
 ```
 
 ## Acknowledgments
