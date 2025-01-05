@@ -1,6 +1,6 @@
 # Personalized-Learning-Recommendation-System-in-Education
 
-## will upload the code soon
+## Will upload the code as soon as its ready
 
 # **AI-Powered Intelligent Tutoring System**
 
