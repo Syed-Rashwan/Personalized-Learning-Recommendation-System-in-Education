@@ -1,7 +1,5 @@
 # Personalized-Learning-Recommendation-System-in-Education
 
-# **AI-Powered Intelligent Tutoring System**
-
 ## **Overview**  
 The **AI-Powered Intelligent Tutoring System** is a cutting-edge educational platform designed to provide personalized, AI-driven learning experiences. It integrates advanced **Natural Language Processing (NLP)** models and recommendation systems to adapt to each student's unique learning needs.  
 
