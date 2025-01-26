@@ -1,7 +1,5 @@
 # Personalized-Learning-Recommendation-System-in-Education
 
-## Will upload the code as soon as its ready
-
 # **AI-Powered Intelligent Tutoring System**
 
 ## **Overview**  
@@ -186,11 +184,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 git checkout -b feature-name
 Submit a pull request. 
 ```
+## **Contributors**
+- **Syed Rashwan** (Project Lead)
 
-## Acknowledgments
-Special thanks to:
-
-OpenAI for GPT/BERT.
 
 React.js and Flask communities for their amazing tools and documentation.
 
