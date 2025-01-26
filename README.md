@@ -186,7 +186,6 @@ Submit a pull request.
 - **Syed Rashwan** (Project Lead)
 
 
-React.js and Flask communities for their amazing tools and documentation.
 
 
 
