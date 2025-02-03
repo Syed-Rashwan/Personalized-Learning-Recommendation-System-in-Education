@@ -9,8 +9,8 @@ courses = load_courses()
 students = load_students()
 
 # Initialize machine learning models
-course_recommender = CourseRecommender()
-student_recommender = StudentRecommender()
+course_recommender = CourseRecommender(courses, students)
+student_recommender = StudentRecommender(courses, students)
 
 # Define API routes
 @app.route('/courses', methods=['GET'])
@@ -23,10 +23,15 @@ def get_students():
 
 @app.route('/recommendations', methods=['POST'])
 def get_recommendations():
-    student_id = request.json['student_id']
-    course_id = request.json['course_id']
+    data = request.get_json()
+    student_id = data.get('student_id')
+    course_id = data.get('course_id')
+
+    if student_id is None or course_id is None:
+        return jsonify({"error": "Missing student_id or course_id"}), 400
+
     recommendations = course_recommender.get_recommendations(student_id, course_id)
-    return jsonify(recommendations)
+    return jsonify({"recommended_courses": recommendations})
 
 if __name__ == '__main__':
     app.run(debug=True)
